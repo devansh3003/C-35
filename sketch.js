@@ -1,0 +1,25 @@
+var hypnoticBall, database;
+var position;
+var gameState=0;
+var playerCount;
+var database;
+var form,player,game;
+
+function setup(){
+  database = firebase.database();
+  game=new Game();
+  game.getState();
+  game.start();
+
+  
+  createCanvas(400,400);
+
+  
+}
+
+function draw(){
+ 
+  
+}
+
+
